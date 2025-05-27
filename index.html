@@ -279,9 +279,10 @@ setInterval(createTextBubble, 500);
 
 <!-- Imagen de reproducir música -->
 <!-- iframe oculto de música -->
-<div style="display:none;">
-  <iframe id="bg-music" width="0" height="0" src="https://www.youtube.com/embed/Vw_lols-BZA?autoplay=1&loop=1&playlist=Vw_lols-BZA&controls=0" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-</div>
+<iframe id="bg-music" width="1" height="1"
+  style="position:fixed; left:-1000px; top:-1000px;"
+  src=""
+  frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
 
 
@@ -294,11 +295,10 @@ setInterval(createTextBubble, 500);
 </div>
 
 <!-- iframe oculto de música -->
-<div style="display:none;">
-  <iframe id="bg-music" width="0" height="0"
-    src=""
-    frameborder="0" allow="autoplay" allowfullscreen></iframe>
-</div>
+<iframe id="bg-music" width="1" height="1"
+  style="position:fixed; left:-1000px; top:-1000px;"
+  src=""
+  frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
 <script>
   const playIcon = document.getElementById("playIcon");
