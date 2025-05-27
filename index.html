@@ -296,7 +296,7 @@ setInterval(createTextBubble, 500);
 
 <!-- iframe oculto de música -->
 <iframe id="bg-music" width="1" height="1"
-  style="position:fixed; left:-1000px; top:-1000px;"
+  style="position:fixed; left:10px; top:10px;"
   src=""
   frameborder="0" allow="autoplay" allowfullscreen></iframe>
 
@@ -305,7 +305,7 @@ setInterval(createTextBubble, 500);
 
   function startMusic() {
     const musicFrame = document.getElementById("bg-music");
-    const videoId = "Vw_lols-BZA";
+    const videoId = "a1Femq4NPxs";
     musicFrame.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}&controls=0`;
     if (playIcon) playIcon.remove();
   }
